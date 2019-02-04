@@ -1,0 +1,74 @@
+.top-header, .banner>.button, .services, .module_img, .promo a.button, .pagination li.current a, .pagination li.current a:hover, .pagination li a:hover,
+.widgets.widget_tag_cloud a, .footer-widgets a.postfix, .filter li.active a, .filter li:hover a, .proj_view a.button, .featured-block, .featured-block:hover .fblock-sub,
+.title-block .icon-container, .social-icons li:hover, .toggle:before, .toggle.open:before, .bx-controls-direction a:hover, mark, .breadcrumbs, .smallipop-instance.blue .sipContent,
+.button, .button:hover, .button:focus, .button.disabled, .button, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus,
+a.prev:hover, a.next:hover,.construction .progress .meter, div#clock .small-2.columns p, .filter li a.selected{
+	background-color:#3862b7;
+}
+.test_author, h4.footer-title, .contact_title, .color, .featured-block:hover .fblock-icon, .featured-block:hover .fblock-main, .toggle-title:hover, .toggle.open .toggle-title,
+.toggle.open .toggle-title:hover, a, a:hover, a:focus, .top-bar-section ul li > a:hover, .top-bar-section ul li > a.button:hover{
+	color:#3862b7;
+}
+.thumbs li a img:hover, .avatar, .featured-block:hover .fblock-sub, .smallipop-instance.blue .sipArrow, .smallipop-instance.blue.sipPositionedLeft .sipArrow,
+.smallipop-instance.blue.sipAlignBottom .sipArrow, .smallipop-instance.blue.sipPositionedRight .sipArrow , .button.disabled, .button{
+	border-color:#3862b7;
+}
+.module_arrow, .arrow-right, .top-bar-section .dropdown li:hover {
+	border-left-color:#3862b7;
+}
+.top-header ul li{border-right-color:#666}
+.top-header ul li:first-child{border-left-color:#666}
+.top-header .login{background:#666}
+	/***** custom by afoeder ************/
+
+h4.footer-title {
+    color: #6361d4;
+}
+
+.footer_part_content {
+    color: #c0c0c0;
+}
+.footer_part_content p {
+    font-size: 1em;
+}
+
+.featured-block { overflow: visible }
+.featured-block .fblock-sub {
+    display: none;
+    background-color: #3862b7;
+    position: absolute;
+    z-index: 5;
+    color: white;
+    width: 100%;
+    border: solid 1px #3862b7;
+    top: 7rem;
+    border-top: solid 17px white;
+    line-height: 1.8em;
+}
+.featured-block:hover .fblock-sub { display: block; }
+.featured-block .fblock-sub span {
+    padding: 10px;
+    display: inline-block;
+}
+
+
+
+ul.callout {
+	font-size: 20px;
+	line-height: 30px;
+	padding: 42px 15px;
+}
+ul.callout li { margin-bottom: 10px; text-indent: -1.25em; padding-left: 1.25em }
+
+/* align the chevron correctly */
+ul.callout li [class^="icon-"],
+ul.callout li [class^="icon-"],
+ul.callout li [class*=" icon-"],
+ul.callout li [class*=" icon-"],
+ul.callout li [class^="icon-"]:before,
+ul.callout li [class*=" icon-"]:before {
+	display: inline;
+}
+div.tp-bullets.simplebullets.round .bullet.selected {
+    background: #3862B7 !important;
+}
