@@ -12,11 +12,11 @@ Tags: dark, light
 
 
 .top-header{background: #f2c025}
-.top-header ul li{border-right: 1px solid #d9ac21;height: 27px;}
+.top-header ul li{border-right: 1px solid #d9ac21;height: 27px;font-family: 'Open Sans', sans-serif; font-size: 11px;margin-right: 10px; line-height:27px;}
 .top-header ul li:first-child{border-left: 1px solid #d9ac21}
-.top-header ul li a{margin-left:10px}
-.top-header ul li>a, .top-header span{font-family: 'Open Sans', sans-serif; font-weight:bold;font-size: 11px;color: #fff;margin-right: 10px; line-height:27px; display:inline-block}
-.top-header a:hover{}
+.top-header ul li a{/*margin-left:10px*/}
+.top-header ul li>a, .top-header span{font-weight:bold; color: #fff; display:inline-block}
+.top-header a:hover{text-decoration: underline}
 .top-header .login{background:#a9861a; margin-bottom:0; font-size:11px !important; margin-left:10px}
 .hr-info {line-height:27px}
 #logo{font-family: 'Open Sans', sans-serif; font-size: 38px;color:#222; margin-top:10px; display:block}
@@ -1052,5 +1052,3 @@ ifame {max-width:100%}
 .footer-list li {list-style:none}
 .footer-post-thumb img {float:left; margin-right:10px; margin-bottom:10px}
 .hr-info a, .hr-info a:hover {color:#fff}
-
-
